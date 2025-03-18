@@ -11,7 +11,10 @@ Amplify.configure(outputs);
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet, TodosComponent],
+  imports: [
+    RouterOutlet, 
+    TodosComponent
+  ],
 })
 export class AppComponent {
   title = 'amplify-angular-template';
